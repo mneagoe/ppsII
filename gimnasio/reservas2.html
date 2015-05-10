@@ -1,0 +1,233 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Reservas</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <!--[if lt IE 9]>
+            <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <div class="container-fluid encabezado">
+            
+             <div class="row menu1">                
+                
+                <div class="col-md-6 aa">
+                    <a href="index.html"><img src="img/Atleticus_logo_Final3.jpg" alt="Atleticus" class="logo-gym img-responsive"/></a>                    
+                </div>
+                
+                <div class="col-md-6">
+                    
+                    <ul class="nav nav-pills">
+                        <li><a href="socio.html">Ingresar</a></li>
+                        <li><a href="#">Registrarse</a></li>
+                        <a class="navbar-brand" href="carrito.html"><img style="height:35px" src="img/carrito.jpg" alt="Carrito" class="img-responsive" "icon-carrito"></a>
+                    </ul>
+                    
+                </div>
+                
+            </div>
+            
+            <div class="row menu2">
+
+                <div class="col-md-2">
+                    <div class="yt">
+                        <a href="http://www.youtube.com"><img src="img/youtube-logo-vector.jpg" alt="Youtube" class="yt img-responsive"/></a>   
+                    </div>
+
+                    <div class="fb">
+                        <a href="http://www.facebook.com"><img src="img/facebook-icon.jpg" alt="Facebook" class="fb img-responsive"/></a>
+                    </div>
+
+                    <div class="tw">
+                        <a href="http://www.twitter.com"><img src="img/twitter-icon.jpg" alt="Twitter" class="tw img-responsive"/></a>
+                    </div>                
+                </div>
+
+                <div class="col-md-7">
+                    <ul class="nav nav-pills nav-justified">
+                        <li><a href="index.html" class="menulink">Inicio</a></li>
+                        <li><a href="sedes.html" class="menulink">Sedes</a></li>
+                        <li><a href="horarios.html" class="menulink">Horarios</a></li>
+                        <li><a href="actividades.html" class="menulink">Actividades</a></li>
+                        <li><a href="planes.html" class="menulink">Planes</a></li>
+                        <li><a href="contacto.html" class="menulink">Contacto</a></li>
+                    </ul>            
+                </div>
+
+                <div class="col-md-3">                
+                    <div class="input-group">
+                        <input class="form-control" type="text" placeholder="buscar..."/>
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Buscar!</button>
+                        </span>    
+                    </div>                    
+                </div> 
+
+            </div>
+            
+        </div>
+        
+        <div class="container-fluid cuerpo">
+            
+            <h2 class="titulo-cuerpo">Reserva de Actividades</h2>            
+            
+            <div class="container cuerpo-reservas">
+                
+                <div class="row menu-reservas">
+                    
+                    <div class="col-md-3 col-actividad">
+                        <label>Actividad:</label>
+                        <select  class="form-control">
+                            <option>- Todas -</option>
+                            <option value="1">IndoorCycle</option>
+                            <option value="2">BodyCombat</option>
+                            <option value="3">Localizada</option>
+                            <option value="4">Yoga</option>
+                            <option value="5">Aquiagym</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3 col-sede">
+                        <label>Sede:</label>
+                        <select class="form-control">
+                            <option>- Todas -</option>
+                            <option value="1">Pilar</option>
+                            <option value="2">Microcentro</option>
+                            <option value="3">Martinez</option>
+                            <option value="4">Palermo</option>
+                            <option value="5">Belgrano</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3 col-dia">
+                        <label>Dia:</label>
+                        <select class="form-control">
+                            <option>- Todos -</option>
+                            <option>Lunes</option>
+                            <option>Martes</option>
+                            <option>Miercoles</option>
+                            <option>Jueves</option>
+                            <option>Viernes</option>
+                            <option>Sabado</option>
+                            <option>Domingo</option>
+                        </select>
+                    </div>
+                    
+                    <div class="col-md-3 col-horario">
+                        <button class="btn btn-default" type="button">Buscar Actividad</button>
+                        <a href="reservas.html"><button class="btn btn-default" type="button">Vaciar Listado</button></a>
+                    </div>
+                    
+                </div>
+                
+                <div class="row">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Actividad</th>
+                                <th>Sede</th>
+                                <th>Dia</th>
+                                <th>Horario</th>
+                                <th>Reservar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>19:00PM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Belgrano</td>
+                                <td>Martes</td>
+                                <td>09:30AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                            <tr>
+                                <td>IndoorCycle</td>
+                                <td>Martinez</td>
+                                <td>Lunes</td>
+                                <td>10:00AM</td>
+                                <td><a href="reservas3.html"> <button type="button" class="btn btn-success" aria-label="Left Align">
+  <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>
+</button></a></td>
+                            </tr>
+                        
+                        </tbody>
+                    
+                    </table>
+                
+                </div>                
+                
+            </div>
+            
+        </div>
+        
+        <div class="row pie">
+            <p>Copyright 2015</p>
+        </div>
+        
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
