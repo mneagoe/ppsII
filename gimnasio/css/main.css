@@ -3,8 +3,6 @@
    ========================================================================== */
 /*CARLOS*/
 
-/*CARLOS*/
-
 .cuerpo-registro{
     padding: 30px 0px 30px;  
 }
@@ -55,8 +53,64 @@
 
 /*MATIAS*/
 
+.cuerpo .titulo-cuerpo-login{
+    
+}
+
+.radio-button-login{
+    
+    margin-top: 30px;
+    font-size: larger;
+    color : dimgray;
+
+}
+
+.email_login{
+    
+    margin-top: 4%;
+    margin-bottom: 4%;
+    width: 60%;
+}
+/*
+.form-group .login{
+
+    width: 45%;
+    margin-left: 29%;
+    margin-top: 20px;
+}
+*/
+
+.chkRecordarme{
+    font-size: larger;
+    color : dimgray;
+
+}
+
+.miBotonIngresar{
+
+    width: 35%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    margin-left: 5%;
+
+}
+
+.panel_izquierdo{
+
+margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.boton_ingresar{
+    
+    margin-left: 8%;
+    margin-top: 2%;
 
 
+}
 
 /**/
 
@@ -104,6 +158,11 @@
     margin-left: 2%;
 }
 
+.facturacion{
+
+margin-bottom: 2%;
+
+}
 /**/
 
 
@@ -153,6 +212,11 @@
     background-color: #d1eaff;
     border-top-style: solid;
     border-top-color: #a6a8aa;
+/*
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+*/
 }
 
 .yt{
